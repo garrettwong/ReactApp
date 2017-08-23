@@ -1,0 +1,25 @@
+
+/* Headers */
+ul.header-nav {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 20px;
+}
+ul.header-nav a {
+  text-decoration: none;
+}
+.header-nav {
+    list-style: none;
+}
+.header-nav-item {
+    float: left;
+}
+.header-nav-link {
+    display: block;
+    padding: 5px 8px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(255,255,255,0.75);
+}

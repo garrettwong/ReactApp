@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.float-left {
+  float: left !important;
+}
+.padding-top {
+  padding-top:20px;
+}
+
+.clearfix::before {
+    display: table;
+    content: "";
+}
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: "";
+}
