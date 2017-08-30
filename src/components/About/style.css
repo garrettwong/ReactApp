@@ -1,0 +1,39 @@
+.about {
+    transition: all 1.5s ease;
+
+    background: lightyellow;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 4px 3px 4px #c9c9c9;
+    text-shadow:  2px 2px #dadada;
+}
+
+.about:hover {
+    transition: all 1.5s ease;
+
+    width: 600px;
+    padding: 40px;
+    background-color: silver;
+    box-shadow: 12px 13px 14px silver;
+    text-shadow:  2px 2px silver;
+}
+
+.about .centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+.about .width400 {
+    width: 400px;
+}
+
+.about ul {
+    list-style-type: none;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
