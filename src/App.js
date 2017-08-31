@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
+// import adminLte js template
+import './Template-init.js';
 
+
+// css
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/font-awesome/css/font-awesome.css';
 import '../node_modules/ionicons/dist/css/ionicons.min.css';
@@ -10,7 +14,9 @@ import './App.css';
 import './Logo-spinner.css';
 
 
+// component
 import Header from './components/Header';
+
 
 /*  
     Github: 
